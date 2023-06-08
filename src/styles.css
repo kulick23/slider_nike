@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Extatica";
+    src: url("../fonts/Extatica-Thin.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+html{
+    background: linear-gradient(72.44deg, #432093 0%, #90DAFD 100%);
+    color: white;
+    font-family: 'Extatica';
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px 0px 60px;
+    align-items: center;
+}
+.header__social{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.content__ellipse{
+    width: 200px;
+    height: 200px;
+}
+.content__imag{
+    max-height: 10%;
+}
