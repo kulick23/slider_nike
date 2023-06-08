@@ -1,0 +1,23 @@
+{
+  "name": "nike",
+  "version": "1.0.0",
+  "description": "nike project",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/esde1/slider-shoes-nike.git"
+  },
+  "author": "Danila Kulinkovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/esde1/slider-shoes-nike/issues"
+  },
+  "homepage": "https://gitlab.com/esde1/slider-shoes-nike#readme",
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
