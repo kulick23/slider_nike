@@ -9,14 +9,29 @@ html{
     color: white;
     font-family: 'Extatica';
     font-style: normal;
+    height: 100%;
+}
+body{
+    margin: 0;
+    width: 100%;
 }
 
 a{
     text-decoration: none;
     color: white;
 }
+button{
+    position: relative;
+    background-color: transparent;
+    width: 120px;
+    height: 150px;
+    background-image: url("../pictures/icons/ellipse.svg"); /* Замените путь_к_изображению на путь к вашему изображению */
+    background-size: cover; /* Масштабирует изображение, чтобы оно полностью заполнило фон кнопки */
+    border: none; /* Убирает границу кнопки */
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
 .header{
-    width: auto;
     display: flex;
     justify-content: space-between;
     padding: 40px 60px 0px 60px;
@@ -28,14 +43,35 @@ a{
     justify-content: space-between;
 }
 .content{
+    position: relative;
+    top: 100px;
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    height: 350px;
 }
-.content__ellipse{
-    width: 200px;
-    height: 200px;
+.button__arrow{
+    position: absolute;
+    top: 55px;
+    right: 42px;
+    max-height: 40px;
 }
-.content__imag{
-    max-height: 10%;
+.button--reverse{
+    transform: scale(-1, 1)
+}
+.slider{
+    width: 450px;
+    height: 100%;
+    overflow: hidden;
+}
+.slider__img--size{
+    max-height: 350px;
+    width: 450px;
+}
+.slider--line{
+    position: relative;
+width: 1800px;
+    transition: all ease 1s;
+
 }
