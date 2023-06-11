@@ -1,0 +1,12 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px 0px 60px;
+    align-items: center;
+}
+.header__social{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}

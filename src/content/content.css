@@ -1,0 +1,75 @@
+
+.content{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+.content__button{
+    position: relative;
+    width: 120px;
+    height: 150px;
+    background-image: url("../assets/icons/ellipse.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button__arrow{
+    position: absolute;
+    top: 55px;
+    right: 42px;
+    max-height: 40px;
+}
+.button--reverse{
+    transform: scale(-1, 1)
+}
+.slider{
+    position: relative;
+    width: 500px;
+    height: 100%;
+    overflow: hidden;
+}
+.slider__element{
+    height: 350px;
+    width: 500px;
+    position: relative;
+}
+.slider__img--size{
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+.slider--line {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 2000px;
+    transition: all ease 1s;
+}
+
+.slider__text{
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+    left: 10%;
+}
+
+.slider__text--opacity{
+    z-index: 1;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.1vw white;
+}
+.slider__text--black{
+    color: black;
+}
+.slider__text--black-opacity{
+    -webkit-text-stroke: 0.1vw black;
+}
+.slider__shadow{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
