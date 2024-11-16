@@ -1,23 +1,19 @@
 {
-  "name": "nike",
+  "name": "slider_nike",
   "version": "1.0.0",
+  "homepage": "https://kulick23.github.io/slider_nike",
   "description": "nike project",
   "main": "src/index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/esde1/slider-shoes-nike.git"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "author": "Danila Kulinkovich",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/esde1/slider-shoes-nike/issues"
-  },
-  "homepage": "https://gitlab.com/esde1/slider-shoes-nike#readme",
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "vite": "^4.3.9"
   }
 }
